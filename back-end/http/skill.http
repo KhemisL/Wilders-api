@@ -1,0 +1,26 @@
+POST http://localhost:3000/api/skill
+Content-Type: application/json
+
+{
+    "name": ""
+}
+
+###
+GET http://localhost:3000/api/wilder/skills
+Content-Type: application/json
+###
+
+GET http://localhost:3000/api/wilder/skill/2
+Content-Type: application/json
+###
+
+PUT http://localhost:3000/api/wilder/skills/update/3
+Content-Type: application/json
+
+{
+    "name": "angular"
+}
+###
+
+DELETE  http://localhost:3000/api/wilder/skills/delete/2
+Content-Type: application/json
